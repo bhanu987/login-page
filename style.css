@@ -1,0 +1,226 @@
+body{
+    background-image: linear-gradient(to right, #559ae9, #408bee, #367af0, #3d67f0, #4f51eb);
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width:25%;
+    border: 2px solid ;
+    margin: auto ;
+background-color: rgb(243, 239, 239);
+    opacity: 0.9;
+    margin-top: 12vh;
+    border-radius: 15px;
+    
+}
+h2{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    background-color: rgb(247, 247, 242);
+    border-radius: 19px ;
+    box-shadow: 2px 2px darkgray;
+    margin: 1rem;
+   padding: 0.9rem;
+    
+    color: black;
+
+}
+
+.fa-facebook{
+    color: rgb(54, 95, 242);
+    
+}
+.fa-google{
+    color: orangered;
+    
+}
+form{
+    margin:1.5rem;
+    text-align: center;
+}
+h3{
+    margin-top: 3.2rem;
+}
+#uname,#password{
+    border-radius: 20px;
+    width: 60%;
+    padding: 0.8rem;
+    border: 1px ridge silver;
+
+    margin-bottom: 1.5rem;
+}
+#check{
+    margin-bottom: 1.5rem;
+    height:1.1rem;
+    width: 1.1rem;
+    
+}
+
+
+.forgot{
+    text-decoration: none;
+    color: black;
+    
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+#submit{
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(235, 136, 24);
+    color: white;
+    border: 0;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: darkorange;
+    
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.sign-up:hover{
+    text-decoration: underline;
+
+}
+
+
+/*Media Queries*/
+@media (max-width:1440px) {
+    .container{
+        width:28% ;
+    }
+    
+}
+@media (max-width:1280px) {
+    .container{
+        width: 36%;
+    }
+
+}
+@media (max-width:1172px) {
+    .container{
+        width: 39%;
+    }
+}
+@media (max-width:1142px) {
+    .container{
+        width: 42%;
+    }
+}
+
+@media (max-width:1000px) {
+    .container{
+        width: 45%;
+    }
+    
+}
+@media (max-width:799px) {
+    ul {
+        flex-direction: column;
+        margin-top: -1.8rem;
+    }
+    ul li a{
+        display: block;
+        padding: 0.5rem;
+        width:80%;
+        margin-left: -1.2rem;
+    }
+   
+    ul li{
+        margin-top:1.3rem;
+        margin-left: 3.5rem;
+    }
+    .fa-facebook,.fa-google{
+        margin-left: 3rem;
+    }
+    #google{
+        margin-bottom: 0;
+    }
+    #facebook{
+        margin-top: 0;
+    }
+    h3 {
+        margin-top: -0.8rem;
+    }
+.container{
+    margin-top: 9vh;
+
+}
+}
+@media (max-width:692px) {
+    .container{
+        width: 56%;
+    }
+}
+@media (max-width:565px) {
+    .container{
+        width: 63%;
+        margin-top: 3vh;
+    
+    }
+    ul{
+        margin-top: -2.8rem;
+    }
+    .fa-facebook,.fa-google{
+        margin-left:2.5rem;
+    }
+    p{
+        margin-bottom: -0.8rem;
+    }
+    ul li{
+        margin-left: 2.5rem;
+    }
+}
+@media (max-width:499px) {
+    .container{
+        width: 92%;
+    }
+    .fa-facebook,.fa-google{
+        margin-left:5.5rem;
+    }
+}
+@media (max-width:400px) {
+    
+    ul li{
+        margin-left: 2.8rem;
+    }
+    .fa-facebook,.fa-google{
+        margin-left:3.5rem;
+    }
+}
+@media (max-width:345px) {
+    .fa-facebook,.fa-google{
+        margin-left:3rem;
+    }
+    ul li{
+        margin-left: 2rem;
+    }
+    #submit{
+        width: 85%;
+    }
+}
+@media (max-width:310px) {
+    .fa-facebook,.fa-google{
+        margin-left:2.4rem;
+    }
+    ul li{
+        margin-left: 1.5rem;
+    }
+}
